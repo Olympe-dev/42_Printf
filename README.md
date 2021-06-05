@@ -7,7 +7,7 @@
 ############################################
 
 
-How did I do it?
+**How did I do it?**
 
 Example:
 ```
@@ -32,4 +32,4 @@ Then three options :
 
 As you may have guessed, this last case is the one that took me the longest to implement. Because you see, when flags join the party, it is a whole other kind of fun. But fun, that it was. **I absolutely loved reproducing this function.** I could talk for hours about the way I decided to reproduce the third case but stay assured, I will not. Not here at least. Because if you do want to know though, I would be happy to tell you!
 
-Thank you for reading me! Have a nice day! :grin:
+**Thank you for reading me! Have a nice day! :grin:**
