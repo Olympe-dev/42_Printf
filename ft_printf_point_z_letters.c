@@ -79,14 +79,12 @@ int	ft_point_zero_percent(const char *format, unsigned int i, \
 va_list param, unsigned int *count)
 {
 	int		width;
-	int		precision;
 
 	while (format[i] == '0')
 		i++;
 	width = 0;
 	if ((format[i] >= '1' && format[i] <= '9') || format[i] == '*')
 		width = ft_calcul_width(format, i, param, &i);
-	precision = ft_precision_point(format, i, param, &i);
 	if (width > 0)
 		ft_print_zeros(width, 1, count);
 	ft_putchar('%', count);
