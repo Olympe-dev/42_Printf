@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME =		libftprintf.a
+NAME =		ft_printf
 
 CC =		gcc
 
@@ -25,8 +25,6 @@ OBJ =		${SRC:.c=.o}
 all:		${NAME}
 
 ${NAME}:	${OBJ}
-			ar rc ${NAME} ${OBJ}
-			ranlib ${NAME}
 
 .c.o:		${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
