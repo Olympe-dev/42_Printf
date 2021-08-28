@@ -16,13 +16,11 @@ int	ft_point_c(const char *format, unsigned int i, \
 		va_list param, unsigned int *count)
 {
 	int		width;
-	int		precision;
 	char	c;
 
 	width = 0;
 	if ((format[i] >= '1' && format[i] <= '9') || format[i] == '*')
 		width = ft_calcul_width(format, i, param, &i);
-	precision = ft_precision_point(format, i, param, &i);
 	c = (char)va_arg(param, int);
 	if (width > 0)
 		ft_print_spaces(width, 0, 1, count);
@@ -73,12 +71,10 @@ int	ft_point_percent(const char *format, unsigned int i, \
 		va_list param, unsigned int *count)
 {
 	int		width;
-	int		precision;
 
 	width = 0;
 	if ((format[i] >= '1' && format[i] <= '9') || format[i] == '*')
 		width = ft_calcul_width(format, i, param, &i);
-	precision = ft_precision_point(format, i, param, &i);
 	if (width > 0)
 		ft_print_spaces(width, 0, 1, count);
 	ft_putchar('%', count);
