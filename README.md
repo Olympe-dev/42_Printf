@@ -205,8 +205,8 @@ As long as you did not get lost along the way you are supposed to take depending
 So if you correctly followed my train of thought...
 - My code starts in the ft\_printf.c file.
 - Then, depending on if there is a point or not in the string to be interpreted, you'll either want to go in the ft\_printf\_no\_point... files or ft\_printf\_point... ones.
-- Then, I check for flags so I either go in the "simple file" called no\_flag or in the dash\_flag file or the zero\_flag file.
-- Finally, I use the three other files (printable, spaces\_and\_zeroes and utils) to print things how they should be at the end of each road.
+- Then, I check for flags so I either go in the "simple file" that goes (no_)point_... or in the (no_)point_d_... file (d for "dash") or the (no_)point_z_... file (z for "zero").
+- Finally, I use the other files to print things how they should be at the end of each road.
 </br>
 </br>
 
