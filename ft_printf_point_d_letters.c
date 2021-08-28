@@ -25,7 +25,6 @@ int	ft_point_dash_c(const char *format, unsigned int i, \
 va_list param, unsigned int *count)
 {
 	int		width;
-	int		precision;
 	char	c;
 
 	while (format[i] == '-' || format[i] == '0')
@@ -35,7 +34,6 @@ va_list param, unsigned int *count)
 		width = ft_calcul_width(format, i, param, &i);
 	if (width < 0)
 		width = -width;
-	precision = ft_precision_point(format, i, param, &i);
 	c = (char)va_arg(param, int);
 	ft_putchar(c, count);
 	ft_print_spaces(width, 0, 1, count);
@@ -72,14 +70,12 @@ int	ft_point_dash_percent(const char *format, unsigned int i, \
 va_list param, unsigned int *count)
 {
 	int		width;
-	int		precision;
 
 	while (format[i] == '-' || format[i] == '0')
 		i++;
 	width = 0;
 	if ((format[i] >= '1' && format[i] <= '9') || format[i] == '*')
 		width = ft_calcul_width(format, i, param, &i);
-	precision = ft_precision_point(format, i, param, &i);
 	if (width < 0)
 		width = -width;
 	ft_putchar('%', count);
