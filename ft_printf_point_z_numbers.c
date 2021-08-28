@@ -56,10 +56,8 @@ va_list param, unsigned int *count)
 		ft_print_spaces_point_int(nb, precision, width, count);
 	if (precision > 0)
 		ft_print_zeros(precision, ft_get_size(nb), count);
-	else if (precision < 0 && nb >= 0)
+	else if (precision < 0)
 		ft_print_zeros(width, ft_get_size(nb), count);
-	else if (precision < 0 && nb < 0)
-		ft_print_zeros(width, ft_get_size(nb) + 1, count);
 	if (!(precision == 0 && nb == 0))
 		ft_putnbr(nb, count);
 	else if (width != 0 && precision == 0 && nb == 0)
@@ -85,10 +83,8 @@ va_list param, unsigned int *count)
 		ft_print_spaces_point_x(nb, precision, width, count);
 	if (precision > 0)
 		ft_print_zeros(precision, ft_get_size_hexa(nb), count);
-	else if (precision < 0 && nb >= 0)
+	else if (precision < 0)
 		ft_print_zeros(width, ft_get_size_hexa(nb), count);
-	else if (precision < 0 && nb < 0)
-		ft_print_zeros(width, ft_get_size_hexa(nb) + 1, count);
 	if (!(precision == 0 && nb == 0))
 		ft_to_hexa(nb, "0123456789abcdef", count);
 	else if (width != 0 && precision == 0 && nb == 0)
@@ -114,10 +110,8 @@ va_list param, unsigned int *count)
 		ft_print_spaces_point_x(nb, precision, width, count);
 	if (precision > 0)
 		ft_print_zeros(precision, ft_get_size_hexa(nb), count);
-	else if (precision < 0 && nb >= 0)
+	else if (precision < 0)
 		ft_print_zeros(width, ft_get_size_hexa(nb), count);
-	else if (precision < 0 && nb < 0)
-		ft_print_zeros(width, ft_get_size_hexa(nb) + 1, count);
 	if (!(precision == 0 && nb == 0))
 		ft_to_hexa(nb, "0123456789ABCDEF", count);
 	else if (width != 0 && precision == 0 && nb == 0)
