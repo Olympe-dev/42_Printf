@@ -196,7 +196,6 @@ I decided to resort to some kind of referral system.
 I cannot say that my way is the smartest and certainly not the quickest or lightest but I think it is working and quite clear.
 As long as you did not get lost along the way you are supposed to take depending on the factors I described before.
 </br>
-</br>
 
 #### <ins>SUMMARY</ins> :grinning:
 </br>
