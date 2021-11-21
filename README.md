@@ -1,13 +1,13 @@
-# Project 02: 42_Printf
+# Project 02: 42_printf
 
 
-**Replicating the printf function. (Handling c, s, d, i, u, x, X, p and % specifiers and -, 0, . and * flags.)**
+## Replicating the printf function. (Handling c, s, d, i, u, x, X, p and % specifiers and -, 0, . and * flags.)
 
 
 ############################################
 
 
-## Description:
+### Description:
 </br>
 
 What I did implement:
@@ -20,7 +20,7 @@ I also implemented it so that it returns what the real printf returns which is t
 </br>
 </br>
 
-### <ins>Specifiers</ins> :capital_abcd:
+#### <ins>Specifiers</ins> :capital_abcd:
 </br>
 
 If you are not familiar with these -I was not at first- let me try to explain them to you.
@@ -48,7 +48,7 @@ Specifier | For printing... |
 </br>
 </br>
 
-### <ins>Flags</ins> :rainbow_flag::white_flag:
+#### <ins>Flags</ins> :rainbow_flag::white_flag:
 </br>
 
 The flags are used to present information a certain way.
@@ -153,7 +153,7 @@ While the point is aiming at precision. So it will print the minus, then the 15 
 </br>
 </br>
 
-### <ins>How to test my code?</ins> :raised_eyebrow: :question: :heavy_check_mark:
+#### <ins>How to test my code?</ins> :raised_eyebrow: :question: :heavy_check_mark:
 </br>
 
 You can use "make" to generate an executable called ft_printf.
@@ -180,7 +180,7 @@ Keep in mind that I initially implemented my version of printf on iOS and I real
 </br>
 </br>
 
-### <ins>How did I implement all that?</ins> :shrug:
+#### <ins>How did I implement all that?</ins> :shrug:
 </br>
 
 I started by studying printf. Through the man page or articles like [this one](https://www.cypress.com/file/54441/download).
@@ -199,7 +199,7 @@ As long as you did not get lost along the way you are supposed to take depending
 </br>
 </br>
 
-### <ins>SUMMARY</ins> :grinning:
+#### <ins>SUMMARY</ins> :grinning:
 </br>
 
 So if you correctly followed my train of thought...
