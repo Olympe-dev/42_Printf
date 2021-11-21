@@ -1,17 +1,19 @@
 # Project 02: 42_printf
 
 
-## Replicating the printf function. (Handling c, s, d, i, u, x, X, p and % specifiers and -, 0, . and * flags.)
-
+## Replicating the printf function
+</br>
+Handling c, s, d, i, u, x, X, p and % specifiers and -, 0, . and * flags.
+</br>
+</br>
 
 ### Description:
 </br>
-
 What I did implement:
+</br>
 
-**specifiers**: d, i, u, x, X, p, c, s and %
-
-**flags**: number, -, ., 0 and *
+* **specifiers**: d, i, u, x, X, p, c, s and %
+* **flags**: number, -, ., 0 and *
 
 I also implemented it so that it returns what the real printf returns which is the number of characters it printed.
 </br>
