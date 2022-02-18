@@ -3,6 +3,11 @@
 
 ## Replicating the printf function
 </br>
+
+[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/opacaud/ft_printf)](https://github.com/JaeSeoKim/badge42)
+</br>
+
+</br>
 Handling c, s, d, i, u, x, X, p and % specifiers and -, 0, . and * flags.
 </br>
 </br>
